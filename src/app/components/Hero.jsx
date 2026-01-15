@@ -3,7 +3,7 @@ import { HiOutlineArrowsRightLeft } from "react-icons/hi2";
 
 const Hero = () => {
   return (
-    <section className="px-4 py-6">
+    <section className="px-4 py-6 mt-20">
       <div
         className="relative overflow-hidden rounded-3xl min-h-[500px] flex flex-col items-center justify-center text-center p-6 bg-slate-900/50 border border-slate-800"
         style={{
