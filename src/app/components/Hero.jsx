@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { HiOutlineArrowsRightLeft } from "react-icons/hi2";
 
@@ -26,12 +27,12 @@ const Hero = () => {
             electronics.
           </p>
           <div className="flex flex-col gap-3">
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold h-14 rounded-2xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-blue-900/25">
+            <Link href="/gadjets" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold h-14 rounded-2xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-blue-900/25">
               Start Swapping
               <span className="material-symbols-outlined text-sm">
                 <HiOutlineArrowsRightLeft/>
               </span>
-            </button>
+            </Link>
             <div className="flex items-center justify-center gap-4 mt-2">
               <div className="flex -space-x-2">
                 <img

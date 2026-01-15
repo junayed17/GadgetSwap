@@ -31,37 +31,37 @@ const Footer = () => {
         </div>
         <div className="flex gap-6">
           {/* Facebook */}
-          <a
+          <Link
             className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-slate-500 hover:text-blue-500 transition-colors border border-slate-800"
-            href="https://facebook.com/your-profile"
+            href="https://www.facebook.com/junayed.ahmed.10690203"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
           >
             <FaFacebook className="text-xl" />
-          </a>
+          </Link>
 
           {/* YouTube */}
-          <a
+          <Link
             className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-slate-500 hover:text-red-500 transition-colors border border-slate-800"
-            href="https://youtube.com/your-channel"
+            href="https://www.youtube.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="YouTube"
           >
             <FaYoutube className="text-xl" />
-          </a>
+          </Link>
 
           {/* Instagram */}
-          <a
+          <Link
             className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-slate-500 hover:text-pink-500 transition-colors border border-slate-800"
-            href="https://instagram.com/your-profile"
+            href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
           >
             <FaInstagram className="text-xl" />
-          </a>
+          </Link>
         </div>
         <p className="text-[10px] uppercase tracking-[0.2em] text-slate-700 font-bold">
           © 2024 GadgetSwap. Redefining Ownership.

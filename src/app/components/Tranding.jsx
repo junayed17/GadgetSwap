@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 
@@ -6,15 +7,15 @@ const Tranding = () => {
     <section className="py-8 bg-slate-950">
       <div className="px-4 flex items-center justify-between mb-6">
         <h2 className="text-xl font-bold tracking-tight">Trending Now</h2>
-        <a
+        <Link
           className="text-blue-500 text-xs font-bold flex items-center gap-1"
-          href="#"
+          href="/gadjets"
         >
           View All{" "}
           <span className="material-symbols-outlined text-xs">
             <MdKeyboardArrowRight />
           </span>
-        </a>
+        </Link>
       </div>
       <div className="grid grid-cols-2 gap-4 px-4">
         <div className="bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 shadow-xl">

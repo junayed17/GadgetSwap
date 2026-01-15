@@ -18,7 +18,7 @@ const LoginLayout = () => {
       Cookies.set("user", true);
 
       toast.success("Login successful!");
-      navigate.push("/");
+      navigate.push("/gadjets");
     }
   }
   function demoAccount() {
