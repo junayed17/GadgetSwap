@@ -1,4 +1,5 @@
 import BrowseByCategory from "./components/BrowseByCategory";
+import GetOnNewsLatter from "./components/GetOnNewsLatter";
 import Hero from "./components/Hero";
 import SellerStories from "./components/SellerStories";
 import StepsToSwap from "./components/StepsToSwap";
@@ -14,6 +15,7 @@ export default function Home() {
       <StepsToSwap/>
       <BrowseByCategory/>
       <SellerStories/>
+      <GetOnNewsLatter/>
     </>
   );
 }
